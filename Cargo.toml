@@ -9,3 +9,4 @@ edition = "2021"
 [dependencies]
 bevy = "0.7.0"
 rand = "0.8.5"
+bevy_flycam = { git = "https://github.com/sburris0/bevy_flycam" }

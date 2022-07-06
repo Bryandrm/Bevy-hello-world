@@ -365,6 +365,14 @@ dependencies = [
 ]
 
 [[package]]
+name = "bevy_flycam"
+version = "0.7.0"
+source = "git+https://github.com/sburris0/bevy_flycam#075904bff5d4f1af1499f5217d9284642d27b93a"
+dependencies = [
+ "bevy",
+]
+
+[[package]]
 name = "bevy_gilrs"
 version = "0.7.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1574,6 +1582,7 @@ name = "hello_world"
 version = "0.1.0"
 dependencies = [
  "bevy",
+ "bevy_flycam",
  "rand",
 ]
 
